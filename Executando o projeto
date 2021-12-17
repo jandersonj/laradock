@@ -1,6 +1,6 @@
 
 
-1 - Após clonar o repositório, entrar na pasta do repositório e rodar do (composer install) para instalar as dependências
+1 - Após clonar o repositório, entrar na pasta do repositório e rodar o ( composer install ) para instalar as dependências
 
 2 - Após instaladas as dependências entrar na pasta laradock pelo terminal e rodar o comando - docker-compose up -d nginx mysql phpmyadmin
 
@@ -8,7 +8,7 @@ Rodando as migrations para criação da tabela necessário no banco
 
 1 - Após ter inciado os containers rodar o comando docker-compose exec --user=laradock workspace bash
 
-2 - Entrado no workspace, rodar o comando - (php artisan migrate) isso fará com que a tebela necessária seja criada no banco.
+2 - Entrado no workspace, rodar o comando - ( php artisan migrate ) isso fará com que a tebela necessária seja criada no banco.
 
 Endpoints
 
